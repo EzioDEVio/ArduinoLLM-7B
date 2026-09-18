@@ -1,0 +1,2083 @@
+[
+  {
+    "board": "ESP32",
+    "components": [
+      "BME280 temperature/humidity/pressure sensor"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "MPU6050 accelerometer/gyroscope"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "DS3231 real-time clock module"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "ADS1115 16-bit ADC module"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "NRF24L01 2.4GHz radio module"
+    ],
+    "protocol": "SPI",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "MAX7219 8x8 LED matrix"
+    ],
+    "protocol": "SPI",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "ST7735 1.8 inch TFT display"
+    ],
+    "protocol": "SPI",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "MFRC522 RFID reader"
+    ],
+    "protocol": "SPI",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "MAX6675 thermocouple amplifier"
+    ],
+    "protocol": "SPI",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "SIM800L GSM/GPRS module"
+    ],
+    "protocol": "UART",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "HC-05 Bluetooth module"
+    ],
+    "protocol": "UART",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "R307 fingerprint sensor"
+    ],
+    "protocol": "UART",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "SG90 servo motor"
+    ],
+    "protocol": "PWM",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "passive buzzer"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "single-channel relay module"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "WS2812 addressable RGB LED strip"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "4x4 matrix keypad"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "rotary encoder with push button"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "potentiometer"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "LDR light-dependent resistor"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "capacitive soil moisture sensor"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "bipolar stepper motor with A4988 driver"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "IR receiver module (VS1838B)"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "HX711 load cell amplifier with load cell"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "YF-S201 water flow sensor"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "MQ-2 gas/smoke sensor"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "flame sensor module"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "analog joystick module"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "16x2 LCD with I2C backpack"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "BME280 sensor",
+      "MPU6050 sensor (same I2C bus)"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "ACS712 current sensor"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "rain sensor module"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "TTP223 capacitive touch sensor"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "small vibration motor via transistor"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "PN532 NFC module"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "two SG90 servos for pan-tilt"
+    ],
+    "protocol": "PWM",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "DC motor with L298N driver"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "two HC-SR04 ultrasonic sensors"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "e-paper display (2.9 inch)"
+    ],
+    "protocol": "SPI",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "discrete RGB LED (common cathode)"
+    ],
+    "protocol": "PWM",
+    "language": "cpp"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "BMP280 pressure sensor"
+    ],
+    "protocol": "I2C",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "single-channel relay module"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "PCA9685 PWM driver with SG90 servo"
+    ],
+    "protocol": "I2C",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "28BYJ-48 stepper motor with ULN2003 driver"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "MFRC522 RFID reader"
+    ],
+    "protocol": "SPI",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "16x2 LCD with I2C backpack"
+    ],
+    "protocol": "I2C",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "PIR motion sensor"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "HC-SR04 ultrasonic sensor"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "rotary encoder"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "push button with debouncing"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "MCP3008 8-channel ADC with potentiometer"
+    ],
+    "protocol": "SPI",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "MCP3008 ADC with MQ-2 gas sensor"
+    ],
+    "protocol": "SPI",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "SSD1306 OLED display"
+    ],
+    "protocol": "I2C",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "DS3231 real-time clock"
+    ],
+    "protocol": "I2C",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "WS2812 NeoPixel strip"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "cooling fan via transistor and PWM"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "MPU6050 accelerometer/gyroscope"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "SG90 servo via Port B"
+    ],
+    "protocol": "PWM",
+    "language": "cpp"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "MFRC522 RFID reader via Port C"
+    ],
+    "protocol": "UART",
+    "language": "cpp"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "ENV III unit (SHT30 + QMP6988)"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "DS18B20 temperature probe via Port B"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "HC-SR04 ultrasonic sensor via Port B"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "BME280 temperature/humidity/pressure sensor"
+    ],
+    "protocol": "I2C",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "DHT22 temperature/humidity sensor"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "SSD1306 OLED display"
+    ],
+    "protocol": "I2C",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "SG90 servo motor"
+    ],
+    "protocol": "PWM",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "single-channel relay module"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "potentiometer"
+    ],
+    "protocol": "analog",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "WS2812 addressable RGB LED strip"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "HC-SR04 ultrasonic sensor"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "MPU6050 accelerometer/gyroscope"
+    ],
+    "protocol": "I2C",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "DS18B20 temperature probe"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "BME280 temperature/humidity/pressure sensor"
+    ],
+    "protocol": "I2C",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "DHT22 temperature/humidity sensor"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "SSD1306 OLED display"
+    ],
+    "protocol": "I2C",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "SG90 servo motor"
+    ],
+    "protocol": "PWM",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "single-channel relay module"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "potentiometer"
+    ],
+    "protocol": "analog",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "WS2812 addressable RGB LED strip"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "HC-SR04 ultrasonic sensor"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "MPU6050 accelerometer/gyroscope"
+    ],
+    "protocol": "I2C",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "push button with debouncing"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "DHT11 temperature/humidity sensor"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "DS18B20 temperature probe"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "HC-SR04 ultrasonic sensor"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "SG90 servo motor"
+    ],
+    "protocol": "PWM",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "passive buzzer"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "single-channel relay module"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "PIR motion sensor"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "LDR light-dependent resistor"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "potentiometer"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "IR receiver module"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "MFRC522 RFID reader"
+    ],
+    "protocol": "SPI",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "SSD1306 OLED display"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "16x2 LCD with I2C backpack"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "analog joystick module"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "7-segment display via 74HC595 shift register"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "4x4 matrix keypad"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "capacitive soil moisture sensor"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "rain sensor module"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "flame sensor module"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "28BYJ-48 stepper motor with ULN2003 driver"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "DC motor with L298N driver"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "MPU6050 accelerometer/gyroscope"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "BMP280 pressure sensor"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "discrete RGB LED (common cathode)"
+    ],
+    "protocol": "PWM",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "small vibration motor via transistor"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "reed switch"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "hall effect sensor"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Arduino_Uno",
+    "components": [
+      "MQ-2 gas/smoke sensor"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "DHT22 temperature/humidity sensor"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "BMP280 pressure sensor"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "SSD1306 OLED display"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "single-channel relay module"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "SG90 servo motor"
+    ],
+    "protocol": "PWM",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "WS2812 addressable RGB LED strip"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "HC-SR04 ultrasonic sensor"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "PIR motion sensor"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "capacitive soil moisture sensor"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "MPU6050 accelerometer/gyroscope"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "DS18B20 temperature probe"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "LDR light-dependent resistor"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "passive buzzer"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "MFRC522 RFID reader"
+    ],
+    "protocol": "SPI",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "microSD card module"
+    ],
+    "protocol": "SPI",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "push button with debouncing"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "rotary encoder"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "HX711 load cell amplifier with load cell"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "IR receiver module"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "flame sensor module"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "MQ-2 gas/smoke sensor"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "discrete RGB LED (common cathode)"
+    ],
+    "protocol": "PWM",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "two relays for garage door automation"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "BME680 environmental sensor"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "TCS34725 color sensor"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP8266_NodeMCU",
+    "components": [
+      "PCF8574 I2C GPIO expander"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "MPU6050 accelerometer/gyroscope"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "BME280 sensor"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "microSD card (built-in slot)"
+    ],
+    "protocol": "SPI",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "SG90 servo motor"
+    ],
+    "protocol": "PWM",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "bipolar stepper motor with A4988 driver"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "piezo buzzer with simple tone via DAC"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "rotary encoder"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "SSD1306 OLED display"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "MFRC522 RFID reader"
+    ],
+    "protocol": "SPI",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "single-channel relay module"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "DS18B20 temperature probe"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "HC-SR04 ultrasonic sensor"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "passive buzzer"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "potentiometer"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "analog joystick module"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "IR receiver module"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "4x4 matrix keypad"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "HX711 load cell amplifier with load cell"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "two SG90 servos for pan-tilt"
+    ],
+    "protocol": "PWM",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "MCP2515 CAN bus module"
+    ],
+    "protocol": "SPI",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "NEO-6M GPS module"
+    ],
+    "protocol": "UART",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "SX1278 LoRa module"
+    ],
+    "protocol": "SPI",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "TCS34725 color sensor"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "Teensy_4_0",
+    "components": [
+      "built-in capacitive touchRead pin"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "BMP280 pressure sensor via Port A"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "SCD30 CO2 sensor via Port A"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "single-channel relay via Port B"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "WS2812 LED strip via Port B"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "HX711 load cell amplifier via Port B"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "NEO-6M GPS module via Port C"
+    ],
+    "protocol": "UART",
+    "language": "cpp"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "DS3231 real-time clock via Port A"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "ENV II unit (SHT30) via Port A"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "VL53L0X time-of-flight sensor via Port A"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "M5Stack_Core2",
+    "components": [
+      "analog joystick via Port B"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "VL53L0X time-of-flight sensor"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "TCS34725 color sensor"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "HMC5883L digital compass"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "SHT31 temperature/humidity sensor"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "ADXL345 accelerometer"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "PCF8574 I2C GPIO expander"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "microSD card module"
+    ],
+    "protocol": "SPI",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "MCP2515 CAN bus module"
+    ],
+    "protocol": "SPI",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "HC-05 Bluetooth Classic serial passthrough"
+    ],
+    "protocol": "UART",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "built-in capacitive touchRead pin"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "MPU9250 9-axis IMU"
+    ],
+    "protocol": "I2C",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "two HC-SR04 sensors with buzzer parking alert"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "LDR with relay for automatic lighting"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "thermal receipt printer"
+    ],
+    "protocol": "UART",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "rain sensor with relay-controlled cover"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "MQ-2 gas sensor with buzzer alarm"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "two relays for garage door automation"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "analog joystick controlling two pan-tilt servos"
+    ],
+    "protocol": "analog",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "HX711 load cell with 16x2 LCD scale display"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "PIR sensor with relay-controlled light"
+    ],
+    "protocol": "digital",
+    "language": "cpp"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "Raspberry Pi Camera Module via picamera2"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "I2S MEMS microphone"
+    ],
+    "protocol": "I2C",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "MCP23017 I2C GPIO expander"
+    ],
+    "protocol": "I2C",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "PCF8574 I2C GPIO expander"
+    ],
+    "protocol": "I2C",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "WS2812 LED strip via rpi_ws281x"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "thermal receipt printer via UART"
+    ],
+    "protocol": "UART",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "Waveshare e-ink display"
+    ],
+    "protocol": "SPI",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "28BYJ-48 stepper via TB6612FNG driver"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "4-channel relay board"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "YF-S201 water flow sensor with interrupt counting"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "TSL2591 light sensor"
+    ],
+    "protocol": "I2C",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "SGP30 air quality sensor"
+    ],
+    "protocol": "I2C",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "MFRC522 RFID with relay door lock"
+    ],
+    "protocol": "SPI",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "IR remote receiver via gpiozero"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "two SG90 servos via PCA9685 for pan-tilt"
+    ],
+    "protocol": "I2C",
+    "language": "python"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "VL53L0X time-of-flight sensor"
+    ],
+    "protocol": "I2C",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "TCS34725 color sensor"
+    ],
+    "protocol": "I2C",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "HMC5883L digital compass"
+    ],
+    "protocol": "I2C",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "SHT31 temperature/humidity sensor"
+    ],
+    "protocol": "I2C",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "ADXL345 accelerometer"
+    ],
+    "protocol": "I2C",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "PCF8574 I2C GPIO expander"
+    ],
+    "protocol": "I2C",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "WS2812 LED strip via neopixel module"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "DS3231 real-time clock"
+    ],
+    "protocol": "I2C",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "SG90 servo sweep"
+    ],
+    "protocol": "PWM",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "two buttons with debouncing"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "analog joystick module"
+    ],
+    "protocol": "analog",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "MAX7219 8x8 LED matrix"
+    ],
+    "protocol": "SPI",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "microSD card module"
+    ],
+    "protocol": "SPI",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "deep sleep wake on button press"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "PWM buzzer playing a melody"
+    ],
+    "protocol": "PWM",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "BME280 sensor"
+    ],
+    "protocol": "I2C",
+    "language": "circuitpython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "DHT22 sensor"
+    ],
+    "protocol": "digital",
+    "language": "circuitpython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "SSD1306 OLED display"
+    ],
+    "protocol": "I2C",
+    "language": "circuitpython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "SG90 servo motor"
+    ],
+    "protocol": "PWM",
+    "language": "circuitpython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "NeoPixel RGB LED strip"
+    ],
+    "protocol": "digital",
+    "language": "circuitpython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "button and LED"
+    ],
+    "protocol": "digital",
+    "language": "circuitpython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "potentiometer"
+    ],
+    "protocol": "analog",
+    "language": "circuitpython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "HC-SR04 ultrasonic sensor"
+    ],
+    "protocol": "digital",
+    "language": "circuitpython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "BME280 sensor"
+    ],
+    "protocol": "I2C",
+    "language": "circuitpython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "DHT22 sensor"
+    ],
+    "protocol": "digital",
+    "language": "circuitpython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "SSD1306 OLED display"
+    ],
+    "protocol": "I2C",
+    "language": "circuitpython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "SG90 servo motor"
+    ],
+    "protocol": "PWM",
+    "language": "circuitpython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "NeoPixel RGB LED strip"
+    ],
+    "protocol": "digital",
+    "language": "circuitpython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "button and LED"
+    ],
+    "protocol": "digital",
+    "language": "circuitpython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "potentiometer"
+    ],
+    "protocol": "analog",
+    "language": "circuitpython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "ADXL345 accelerometer"
+    ],
+    "protocol": "I2C",
+    "language": "circuitpython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "DS3231 real-time clock"
+    ],
+    "protocol": "I2C",
+    "language": "circuitpython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "MPU6050 accelerometer/gyroscope"
+    ],
+    "protocol": "I2C",
+    "language": "circuitpython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "passive buzzer"
+    ],
+    "protocol": "digital",
+    "language": "circuitpython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "HC-SR04 ultrasonic sensor"
+    ],
+    "protocol": "digital",
+    "language": "circuitpython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "MPU6050 accelerometer/gyroscope"
+    ],
+    "protocol": "I2C",
+    "language": "circuitpython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "passive buzzer"
+    ],
+    "protocol": "digital",
+    "language": "circuitpython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "rotary encoder"
+    ],
+    "protocol": "digital",
+    "language": "circuitpython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "rotary encoder"
+    ],
+    "protocol": "digital",
+    "language": "circuitpython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "single-channel relay module"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "single-channel relay module"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "capacitive soil moisture sensor"
+    ],
+    "protocol": "analog",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "OneWire DS18B20 temperature probe"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "IR receiver module"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "4x4 matrix keypad"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "ESP32",
+    "components": [
+      "two SG90 servos for pan-tilt"
+    ],
+    "protocol": "PWM",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_Pico_RP2040",
+    "components": [
+      "onboard LED with Wi-Fi disabled (no network)"
+    ],
+    "protocol": "digital",
+    "language": "micropython"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "ADXL345 accelerometer"
+    ],
+    "protocol": "I2C",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "VL53L0X time-of-flight sensor"
+    ],
+    "protocol": "I2C",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "capacitive touch sensor (TTP223)"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "4x4 matrix keypad"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "DS18B20 temperature probe"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "two relays for garage door automation"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "MQ-2 gas sensor via MCP3008"
+    ],
+    "protocol": "SPI",
+    "language": "python"
+  },
+  {
+    "board": "Raspberry_Pi_40pin",
+    "components": [
+      "buzzer playing a melody"
+    ],
+    "protocol": "digital",
+    "language": "python"
+  }
+]

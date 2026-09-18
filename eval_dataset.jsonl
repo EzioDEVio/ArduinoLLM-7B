@@ -1,0 +1,12 @@
+{"instruction": "How do I wire an INA219 power/current monitor to an ESP32 over I2C and log readings?", "board": "ESP32", "language": "cpp"}
+{"instruction": "What's the wiring and Arduino code for a BH1750 ambient light sensor on an ESP32?", "board": "ESP32", "language": "cpp"}
+{"instruction": "How do I connect a piezo buzzer to an ESP32 and play a simple tone?", "board": "ESP32", "language": "cpp"}
+{"instruction": "Wire a BH1750 light sensor to a Raspberry Pi over I2C and write Python to read lux values.", "board": "Raspberry_Pi_40pin", "language": "python"}
+{"instruction": "How do I connect a button and an LED to a Raspberry Pi so pressing the button toggles the LED?", "board": "Raspberry_Pi_40pin", "language": "python"}
+{"instruction": "What's the wiring and code for reading a potentiometer's value on a Raspberry Pi using an MCP3008?", "board": "Raspberry_Pi_40pin", "language": "python"}
+{"instruction": "How do I read a BH1750 light sensor over I2C using MicroPython on an ESP32?", "board": "ESP32", "language": "micropython"}
+{"instruction": "Write MicroPython code to blink an LED connected to an ESP32, with wiring.", "board": "ESP32", "language": "micropython"}
+{"instruction": "How do I wire a button to a Raspberry Pi Pico and detect presses in MicroPython?", "board": "Raspberry_Pi_Pico_RP2040", "language": "micropython"}
+{"instruction": "What's the wiring and MicroPython code to read a potentiometer's analog value on a Raspberry Pi Pico?", "board": "Raspberry_Pi_Pico_RP2040", "language": "micropython"}
+{"instruction": "How do I control a buzzer with PWM tones on a Raspberry Pi Pico using MicroPython?", "board": "Raspberry_Pi_Pico_RP2040", "language": "micropython"}
+{"instruction": "Wire an INA219 current sensor to a Raspberry Pi Pico and read it with MicroPython over I2C.", "board": "Raspberry_Pi_Pico_RP2040", "language": "micropython"}

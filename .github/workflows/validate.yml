@@ -1,0 +1,35 @@
+name: Validate Dataset
+
+on:
+  push:
+    paths:
+      - 'full_dataset.jsonl'
+      - 'generated_dataset.jsonl'
+      - 'validate_dataset.py'
+  pull_request:
+    paths:
+      - 'full_dataset.jsonl'
+      - 'generated_dataset.jsonl'
+      - 'validate_dataset.py'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate full_dataset.jsonl format and contamination
+        run: |
+          python validate_dataset.py full_dataset.jsonl
+          # Fail the check if anything was rejected on the committed dataset
+          REJECTED=$(python -c "import json; print(sum(1 for _ in open('full_dataset_rejected.jsonl')))" 2>/dev/null || echo 0)
+          if [ "$REJECTED" -gt 0 ]; then
+            echo "::error::$REJECTED example(s) in full_dataset.jsonl fail validation. See full_dataset_rejected.jsonl."
+            exit 1
+          fi
+          echo "All examples in full_dataset.jsonl passed validation."

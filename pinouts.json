@@ -1,0 +1,93 @@
+{
+  "ESP32_DevKitC": {
+    "notes": "Standard 30-pin ESP32 DevKitC / DevKit V1 layout. GPIO34-39 are input-only (no internal pull-up/down, cannot be used for output).",
+    "power": {"3V3": "3.3V output", "VIN": "5V input (from USB or external)", "GND": "Ground (multiple pins)"},
+    "i2c_default": {"SDA": "GPIO21", "SCL": "GPIO22"},
+    "uart2_default": {"RX2": "GPIO16", "TX2": "GPIO17"},
+    "spi_default": {"SCK": "GPIO18", "MISO": "GPIO19", "MOSI": "GPIO23", "CS_general_purpose": "GPIO5"},
+    "input_only_pins": ["GPIO34", "GPIO35", "GPIO36", "GPIO39"],
+    "strapping_pins_avoid_for_general_io": ["GPIO0", "GPIO2", "GPIO12", "GPIO15"],
+    "adc_capable": ["GPIO32", "GPIO33", "GPIO34", "GPIO35", "GPIO36", "GPIO39"],
+    "onewire_common_choice": "GPIO4"
+  },
+  "M5Stack_Core2": {
+    "notes": "M5Stack Core2 has an internal I2C bus for onboard peripherals (AXP192 power IC, touch controller) and a Port A (Grove connector) for external I2C sensors.",
+    "power": {"5V": "5V output on Grove port", "3V3": "3.3V output on Grove port", "GND": "Ground on Grove port"},
+    "port_a_grove_i2c": {"SDA": "GPIO32", "SCL": "GPIO33"},
+    "port_b_grove_gpio": {"pin1": "GPIO36", "pin2": "GPIO26"},
+    "port_c_uart": {"RX": "GPIO13", "TX": "GPIO14"},
+    "note_on_shared_bus": "Internal I2C (power/touch) is on GPIO21/GPIO22 -- do not reuse these for external devices. Use Port A (GPIO32/33) for external I2C sensors instead."
+  },
+  "Raspberry_Pi_40pin": {
+    "notes": "Applies to Raspberry Pi 3/4/5 and Zero with the standard 40-pin header. BCM numbering shown (what most Python GPIO libraries use), not physical pin numbers.",
+    "power": {"5V": "Physical pins 2, 4", "3V3": "Physical pins 1, 17", "GND": "Physical pins 6, 9, 14, 20, 25, 30, 34, 39"},
+    "i2c_default": {"SDA": "GPIO2 (physical pin 3)", "SCL": "GPIO3 (physical pin 5)"},
+    "spi0_default": {"SCK": "GPIO11", "MOSI": "GPIO10", "MISO": "GPIO9", "CE0": "GPIO8", "CE1": "GPIO7"},
+    "uart_default": {"TXD": "GPIO14 (physical pin 8)", "RXD": "GPIO15 (physical pin 10)"},
+    "important_voltage_note": "Raspberry Pi GPIO pins are 3.3V ONLY. Never connect a 5V logic sensor output directly to a GPIO pin -- use a level shifter or voltage divider, or this will damage the Pi."
+  },
+  "Raspberry_Pi_Pico_RP2040": {
+    "notes": "IMPORTANT: this is a DIFFERENT product from 'Raspberry_Pi_40pin' above. The Pico is a bare microcontroller board (RP2040 chip) with NO operating system -- it runs MicroPython or C/C++ SDK directly on the chip, NOT Linux. Code for this board uses MicroPython's `machine` module (machine.Pin, machine.I2C, etc.), never RPi.GPIO, never smbus, and never assumes a filesystem, terminal, or OS services beyond what MicroPython itself provides.",
+    "power_note": "3V3 OUT pin (pin 36) provides regulated 3.3V; VSYS (pin 39) accepts 1.8-5.5V input; VBUS (pin 40) is 5V from USB",
+    "i2c0_default": {"SDA": "GP0 (physical pin 1)", "SCL": "GP1 (physical pin 2)"},
+    "i2c1_default": {"SDA": "GP2 (physical pin 4)", "SCL": "GP3 (physical pin 5)"},
+    "spi0_default": {"SCK": "GP18 (physical pin 24)", "MOSI": "GP19 (physical pin 25)", "MISO": "GP16 (physical pin 21)", "CS": "GP17 (physical pin 22)"},
+    "uart0_default": {"TX": "GP0 (physical pin 1)", "RX": "GP1 (physical pin 2)"},
+    "adc_capable_pins": ["GP26 (ADC0)", "GP27 (ADC1)", "GP28 (ADC2)"],
+    "onboard_led": "GP25 (or 'LED' by name on some MicroPython builds)",
+    "gpio_voltage": "3.3V logic ONLY -- same 5V-tolerance caution as ESP32 applies"
+  },
+  "Arduino_Uno": {
+    "notes": "ATmega328P-based, 5V logic (unlike ESP32/Pico's 3.3V) -- most 3.3V-only modules (NRF24L01, some SPI radios) need a level shifter here. Only 2KB SRAM total, so avoid heavy libraries/large buffers. Only ONE hardware UART (shared with USB programming) and ONE I2C bus.",
+    "power": {"5V": "5V pin", "3V3": "3.3V pin (limited current, ~50mA)", "GND": "multiple GND pins"},
+    "i2c_default": {"SDA": "A4", "SCL": "A5"},
+    "uart_default": {"RX": "D0 (shared with USB)", "TX": "D1 (shared with USB)"},
+    "spi_default": {"SCK": "D13", "MISO": "D12", "MOSI": "D11", "SS": "D10"},
+    "pwm_capable_pins": ["D3", "D5", "D6", "D9", "D10", "D11"],
+    "analog_pins": ["A0", "A1", "A2", "A3", "A4", "A5"],
+    "onboard_led": "D13"
+  },
+  "ESP8266_NodeMCU": {
+    "notes": "IMPORTANT PITFALL: NodeMCU board silkscreen 'D' labels do NOT match the underlying GPIO numbers used in code -- e.g. silkscreen D1 is actually GPIO5, D2 is GPIO4, D3 is GPIO0, D4 is GPIO2. Always use the silkscreen D-number in Arduino code (D1, D2, etc.), not the raw GPIO number, since the board variant file maps them. Only ONE analog input (A0), limited to 0-1.0V range on bare ESP8266 (NodeMCU boards typically add a divider bringing it to 0-3.3V -- check your specific board).",
+    "power": {"3V3": "3.3V pin", "GND": "GND pin", "VIN": "5V input via USB"},
+    "i2c_default": {"SDA": "D2 (GPIO4)", "SCL": "D1 (GPIO5)"},
+    "spi_default": {"SCK": "D5 (GPIO14)", "MISO": "D6 (GPIO12)", "MOSI": "D7 (GPIO13)", "CS": "D8 (GPIO15)"},
+    "uart_default": {"TX": "TX (GPIO1, shared with USB)", "RX": "RX (GPIO3, shared with USB)"},
+    "analog_pin": "A0 (single analog input only)",
+    "onboard_led": "D4 (GPIO2, inverted logic -- LOW turns it on)",
+    "avoid_pins": ["D0/GPIO16 has no PWM/interrupt support", "D3/D4/D8 are boot-mode strapping pins, avoid for general I/O if possible"]
+  },
+  "Teensy_4_0": {
+    "notes": "ARM Cortex-M7 @600MHz via Teensyduino (Arduino-compatible). 3.3V logic, but most digital pins ARE 5V tolerant (check pinout diagram for exceptions). Has a built-in microSD slot on some carrier boards. Native CAN bus support (FlexCAN) unlike most Arduino-class boards.",
+    "power": {"3V3": "3.3V pin", "VIN": "5V input via USB or VIN pin", "GND": "multiple GND pins"},
+    "i2c_default": {"SDA": "pin 18", "SCL": "pin 19"},
+    "spi_default": {"SCK": "pin 13", "MISO": "pin 12", "MOSI": "pin 11", "CS": "pin 10"},
+    "uart_default": {"TX": "pin 1", "RX": "pin 0"},
+    "pwm_capable_pins": "most digital pins support PWM (check pinout diagram for exact list)",
+    "onboard_led": "pin 13",
+    "can_bus": "CAN pins vary by revision -- check specific Teensy 4.0 pinout diagram"
+  },
+  "common_modules": {
+    "NEO-6M_GPS": {
+      "interface": "UART",
+      "pins": {"VCC": "3.3V or 5V (check module silkscreen)", "GND": "GND", "TX": "connects to host RX", "RX": "connects to host TX"}
+    },
+    "SX1278_LoRa": {
+      "interface": "SPI",
+      "pins": {"VCC": "3.3V ONLY (not 5V tolerant)", "GND": "GND", "SCK": "host SPI SCK", "MISO": "host SPI MISO", "MOSI": "host SPI MOSI", "NSS_CS": "any free GPIO", "RST": "any free GPIO", "DIO0": "any free GPIO, must support interrupts"}
+    },
+    "SSD1306_OLED": {
+      "interface": "I2C (most common) or SPI variant",
+      "pins": {"VCC": "3.3V or 5V depending on board", "GND": "GND", "SDA": "host I2C SDA", "SCL": "host I2C SCL"},
+      "common_i2c_address": "0x3C"
+    },
+    "DHT22_temp_humidity": {
+      "interface": "Single-wire digital",
+      "pins": {"VCC": "3.3V or 5V", "GND": "GND", "DATA": "any free GPIO, needs 10k pull-up resistor to VCC"}
+    },
+    "DS18B20_temp": {
+      "interface": "OneWire",
+      "pins": {"VCC": "3.3V or 5V", "GND": "GND", "DATA": "any free GPIO, needs 4.7k pull-up resistor to VCC"}
+    }
+  }
+}
