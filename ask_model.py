@@ -13,7 +13,7 @@ Usage:
 from unsloth import FastLanguageModel
 
 MODEL_NAME = "unsloth/Qwen2.5-Coder-7B-Instruct-bnb-4bit"
-ADAPTER_DIR = "7b_lora_adapter"
+ADAPTER_DIR = "EzioDevio/ArduinoLLM-7B"
 MAX_SEQ_LENGTH = 2048
 
 def main():
