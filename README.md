@@ -2,7 +2,7 @@
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
-[![Model on Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-yellow)](https://huggingface.co/EzioDEVio/arduino-embedded-qwen2.5-coder-7b)
+[![Model on Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-yellow)](https://huggingface.co/EzioDevio/arduino-embedded-qwen2.5-coder-7b)
 [![Dataset size](https://img.shields.io/badge/dataset-373%20examples-green)](full_dataset.jsonl)
 [![Base model](https://img.shields.io/badge/base%20model-Qwen2.5--Coder--7B-orange)](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)
 
@@ -67,7 +67,7 @@ model, tokenizer = FastLanguageModel.from_pretrained(
     max_seq_length=2048,
     load_in_4bit=True,
 )
-model.load_adapter("EzioDEVio/arduino-embedded-qwen2.5-coder-7b")
+model.load_adapter("EzioDevio/arduino-embedded-qwen2.5-coder-7b")
 FastLanguageModel.for_inference(model)
 
 messages = [{"role": "user", "content": "How do I wire a BME280 to an ESP32 over I2C?"}]
